@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="379a2e55-f6e8-4bd1-9764-e5f325ee1341" name="Default Changelist" comment="" />
+    <list default="true" id="379a2e55-f6e8-4bd1-9764-e5f325ee1341" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/xc-framework-parent/target/" />
     <ignored path="$PROJECT_DIR$/xc-framework-utils/target/" />
     <ignored path="$PROJECT_DIR$/xc-framework-model/target/" />
@@ -243,8 +245,9 @@
     <option name="jreName" value="#JAVA_HOME" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-50" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="25" />
     <option name="width" value="1875" />
     <option name="height" value="1040" />
   </component>
@@ -305,7 +308,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590555827424" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590557234000" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/dao" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/xc-service-manage-course" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -590,7 +593,7 @@
       <workItem from="1590384273004" duration="15300000" />
       <workItem from="1590455330489" duration="20075000" />
       <workItem from="1590548537897" duration="1064000" />
-      <workItem from="1590549662895" duration="1933000" />
+      <workItem from="1590549662895" duration="3169000" />
     </task>
     <servers />
   </component>
@@ -627,7 +630,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="272804000" />
+    <option name="totallyTimeSpent" value="274040000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -639,10 +642,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="120" y="41" width="1500" height="832" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8985201" visible="true" weight="0.29959786" />
-      <window_info id="Structure" order="1" sideWeight="0.10147992" side_tool="true" visible="true" weight="0.29959786" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8394004" visible="true" weight="0.30998614" />
+      <window_info id="Structure" order="1" sideWeight="0.16059957" side_tool="true" visible="true" weight="0.30998614" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -656,7 +659,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33002833" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33285713" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067025" side_tool="true" weight="0.45120227" />
       <window_info anchor="bottom" id="Statistic" order="10" weight="0.32956153" />
