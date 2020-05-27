@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xuecheng.manage_course.dao.TeachPlanMapper">
+    <select id="findTeachPlanByCourseId" parameterType="java.lang.String"
+            resultMap="teachPlanById">
+        select a.id aid,a.pname aname,b.id bid,b.pname bname,c.id cid,c.pname cname
+        from teachplan a left join teachplan b on a.id = b.parentid  left join teachplan c
+        on b.id = c.parentid  where a.courseid = #{courseId} and a.parentid = '0'
+    </select>
+
+    <resultMap id="teachPlanById" type="com.xuecheng.framework.domain.course.ext.TeachplanNode">
+        <result property="id" column="aid"/>
+        <result property="pname" column="aname"/>
+        <collection property="children" ofType="com.xuecheng.framework.domain.course.ext.TeachplanNode">
+            <result property="id" column="bid"/>
+            <result property="pname" column="bname"/>
+            <collection property="children" ofType="com.xuecheng.framework.domain.course.ext.TeachplanNode">
+                <result property="id" column="cid"/>
+                <result property="pname" column="cname"/>
+            </collection>
+        </collection>
+
+    </resultMap>
+</mapper>

@@ -1,0 +1,8 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: Thymeleaf-rabbitmq
+  thymeleaf:
+    cache: false  #关闭模板缓存

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>测试</title>
+</head>
+<body>
+    <!--<span th:text="${user.name}"></span>-->
+    <!--<div>跟我来</div>-->
+1111
+    <table>
+    <tr th:each="student,sstat:${students}">
+        <td th:text="${student.name}"></td>
+        <td th:text="${sstat.index}"></td>
+        <td th:text="${student.age}"></td>
+        <td th:text="${student.address}"></td>
+        <div>一共有</div><span th:text="${sstat.size}"/>条数据
+    </tr>
+    </table>
+
+</body>
+</html>

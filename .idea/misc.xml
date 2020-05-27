@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/xc-framework-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/xc-framework-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/xc-framework-model/pom.xml" />
+        <option value="$PROJECT_DIR$/xc-framework-common/pom.xml" />
+        <option value="$PROJECT_DIR$/xc-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/xcservice-manage-cms/pom.xml" />
+        <option value="$PROJECT_DIR$/xc-service-manage-cms/pom.xml" />
+        <option value="$PROJECT_DIR$/freemarker-test/pom.xml" />
+        <option value="$PROJECT_DIR$/Thymeleaf-test/pom.xml" />
+        <option value="$PROJECT_DIR$/test-freemarker/pom.xml" />
+        <option value="$PROJECT_DIR$/testrabbitmq-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/test-rabbitmq-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/test-rabbitmq-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/test-rabbitmq-springboot-pro/pom.xml" />
+        <option value="$PROJECT_DIR$/test-rabbitmq-springboot-con/pom.xml" />
+        <option value="$PROJECT_DIR$/xc-service-manage-cms-client/pom.xml" />
+        <option value="$PROJECT_DIR$/xc-service-manage-course/pom.xml" />
+        <option value="$PROJECT_DIR$/test-fastdfs/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Internationalization</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>
